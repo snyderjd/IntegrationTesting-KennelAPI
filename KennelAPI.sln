@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KennelAPI", "KennelAPI\KennelAPI.csproj", "{C807319F-A27F-4EA2-9241-494DDEDEFDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KennelAPI.Tests", "KennelAPI.Tests\KennelAPI.Tests.csproj", "{B6995081-B0C2-488F-BA2A-1E54626722BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C807319F-A27F-4EA2-9241-494DDEDEFDD0} = {C807319F-A27F-4EA2-9241-494DDEDEFDD0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C807319F-A27F-4EA2-9241-494DDEDEFDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C807319F-A27F-4EA2-9241-494DDEDEFDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C807319F-A27F-4EA2-9241-494DDEDEFDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C807319F-A27F-4EA2-9241-494DDEDEFDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6995081-B0C2-488F-BA2A-1E54626722BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6995081-B0C2-488F-BA2A-1E54626722BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6995081-B0C2-488F-BA2A-1E54626722BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6995081-B0C2-488F-BA2A-1E54626722BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C67F682-4B15-4745-AFB9-BD57FC5BA9AB}
+	EndGlobalSection
+EndGlobal
